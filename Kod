@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="strona.css">
+</head>
+<body>
+<style>.Kontener{
+    height: 2000px;
+    width: 1900px;
+    
+    
+}
+.pasek{
+    width: 1900px;
+    height: 300px;
+
+}
+.image{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+ 
+.image img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+ 
+.sport{
+    position: absolute;
+    background:  rgba(0, 0, 0, 0.5);
+    width: 98%;
+    padding: 1%;
+    text-align: center;
+    top:90%;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;   
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+} </style>
+    <div class="Kontener">
+        <div class="pasek"><div class="image">
+            <img src="akcesoria_baner_miu_www_kategorie.jpg">
+            <div class="sport">
+                <h2>Fotografia sportowa</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus arcu sed sodales ultricies. Duis            
+                 scelerisque, ex sit amet tempus </p>
+            </div>
+            </div>
+    </div>
+</body>
+</html>
